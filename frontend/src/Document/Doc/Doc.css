@@ -1,0 +1,97 @@
+.document-container {
+    margin-top: 20px;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  th {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 1px solid #cecece;
+    text-transform: uppercase;
+  }
+  
+  td {
+    background-color: #e3f2fd;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: aliceblue;
+    border-bottom: 1px solid #cecece;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+  }
+  
+  td:hover {
+    background-color: #ffffff;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 15px;
+  }
+  
+  table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  button {
+    margin-left: 5px;
+    padding: 8px 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-document-row button {
+    background-color: #218eee;
+  }
+  
+  .new-document-row button:hover {
+    background-color: #1565c0;
+  }
+  
+  .new-document-row {
+    border-bottom: none;
+  }
+  
+  .del, .save, .cancel, .edit {
+    transition: transform 0.3s ease;
+    width: 22px;
+  }
+  
+  .del:hover, .save:hover, .cancel:hover, .edit:hover {
+    transform: scale(1.2);
+  }

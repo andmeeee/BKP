@@ -1,0 +1,35 @@
+.album-title-container {
+    margin-top: 20px;
+    max-width: 43.5%;
+    margin-left: 5%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .album-title-container p{
+    margin-left: 15px;
+    font-size: 18px;
+    overflow: hidden;
+    color: #000000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .album-title-container strong {
+    color: #000000;
+  }
+  
+  .error-message {
+    color: #ff4d4d;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #2196f3;
+  }
+  

@@ -1,0 +1,95 @@
+.section-title {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 20px;
+}
+
+.section-title-container-3,
+.section-title-container {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 31.78%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.section-title-container-2 {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 31.78%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-title-container .album-info,
+.section-title-container .document-info {
+    margin-bottom: 15px;
+}
+
+
+.section-title-container p {
+    margin-left: 15px;
+    font-size: 18px;
+    overflow: hidden;
+    color: #000000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.section-title-container strong {
+    color: #000000;
+}
+
+.section-title-container-2 .album-info,
+.section-title-container-2 .document-info {
+    margin-bottom: 15px;
+}
+.section-title-container-2 p {
+    margin-left: 15px;
+    font-size: 18px;
+    overflow: hidden;
+    color: #000000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.section-title-container-2 strong {
+    color: #000000;
+}
+
+.section-title-container-3 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #000000;
+    display: block; /* Убедитесь, что элемент блочный */
+    white-space: normal; /* Разрешаем перенос текста */
+    overflow: hidden;
+    line-clamp: 2; /* Ограничение на 2 строки */
+    -webkit-box-orient: vertical;
+    display: -webkit-box; /* Добавляем для поддержки многострочного текста */
+    text-align: justify; /* Растягиваем текст по ширине */
+}
+
+
+
+.section-title-container-3 strong {
+    color: #000000;
+}
+
+.error-message {
+    color: #ff4d4d;
+    text-align: center;
+    font-size: 18px;
+}
+
+.loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #2196f3;
+}

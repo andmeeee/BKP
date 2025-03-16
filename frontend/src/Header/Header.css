@@ -1,0 +1,53 @@
+.header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    
+  }
+  
+  .title {
+    margin-left: 5%;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .home-button {
+    height: 70px;
+    background-color: white;
+    color: #000000;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    width: 200px;
+  }
+
+
+  h1{
+    font-size: 22px;
+  }
+
+  .home-button:hover {
+    transform: scale(1.06);
+  }
+
+
+  .homeimg{
+    transition: transform 0.3s ease;
+    width: 50px;
+  }
+
+  .homeimg:hover{
+    transform: scale(1.2);
+  }
+
+  .menu{
+    margin-right: 5%;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  

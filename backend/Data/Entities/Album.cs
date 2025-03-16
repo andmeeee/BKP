@@ -2,9 +2,9 @@ namespace BKP.Data.Entities;
  
 public class Album
 {
-    public int id { get; set; }
-    public string? name { get; set; }
-    public string? code { get; set; }
-    public string? doc_count { get; set; }
-    public string? develop { get; set; }
+    public int Id { get; set; }
+    public string? Name { get; set; }
+    public string? Code { get; set; }
+    public int DocCount { get; set; }
+    public string? Develop { get; set; }
 }

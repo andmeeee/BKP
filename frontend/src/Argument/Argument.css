@@ -1,0 +1,195 @@
+.argument-container {
+    margin-top: 20px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 1px solid #cecece;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #e3f2fd;
+}
+
+tr:nth-child(odd) td {
+    background-color: aliceblue;
+    border-bottom: 1px solid #cecece;
+}
+
+tr:nth-child(even) td {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+}
+
+td:hover {
+    background-color: #ffffff;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+button {
+    margin-left: 5px;
+    padding: 8px 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.new-argument-row button {
+    background-color: #218eee;
+    color: white;
+}
+
+.new-argument-row button:hover {
+    background-color: #1565c0;
+}
+
+.new-argument-row {
+    border-bottom: none;
+}
+
+.del, .save, .cancel, .edit {
+    transition: transform 0.3s ease;
+    width: 22px;
+}
+
+.del:hover, .save:hover, .cancel:hover, .edit:hover {
+    transform: scale(1.2);
+}
+
+.add-argument-button {
+    padding: 8px 12px;
+    background-color: #218eee;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.top {
+    height: 40px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top h2 {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.add-argument-button:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}
+
+.add-argument-button:active {
+    transform: scale(0.95);
+}
+
+/* Стили для выпадающего списка */
+select {
+    width: 60%;
+    padding: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 15px;
+    appearance: none; /* Убираем стандартный стиль браузера */
+    -webkit-appearance: none; /* Для Safari и Chrome */
+    -moz-appearance: none; /* Для Firefox */
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Стили для выпадающего списка при наведении */
+  select:hover {
+    border-color: #218eee;
+    box-shadow: 0 0 5px rgba(33, 142, 238, 0.5);
+  }
+  
+  /* Стили для выпадающего списка в фокусе */
+  select:focus {
+    border-color: #218eee;
+    box-shadow: 0 0 8px rgba(33, 142, 238, 0.7);
+    outline: none;
+  }
+  
+  /* Стили для опций внутри выпадающего списка */
+  select option {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    padding: 8px;
+  }
+  
+  /* Стили для выпадающего списка в режиме редактирования (заблокирован) */
+  select:disabled {
+    background-color: #f5f5f5;
+    color: #a0a0a0;
+    cursor: not-allowed;
+    border-color: #cecece;
+  }
+  
+  /* Кастомная стрелка для выпадающего списка */
+  .select-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .select-wrapper::after {
+    content: '▼';
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #218eee;
+    font-size: 12px;
+  }
